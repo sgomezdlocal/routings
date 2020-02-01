@@ -1,0 +1,2220 @@
+{
+  "id": "725f5118-7677-47cd-90bc-86aee0335220",
+  "version": "2.0",
+  "name": "RazorPay",
+  "url": "https://dashboard.razorpay.com/#/access/signin",
+  "tests": [{
+    "id": "ed04e901-cfe1-4ee3-8520-5bd653118370",
+    "name": "RazorPay - GM",
+    "commands": [{
+      "id": "8c48e37e-531a-4b87-add1-07d7af7fef8c",
+      "comment": "",
+      "command": "open",
+      "target": "https://dashboard.razorpay.com/#/access/signin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e6905d6-5ba3-4a05-8cca-9a103b23a3c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a4a2df6-a005-4539-a07e-d26df67c6b86",
+      "comment": "",
+      "command": "type",
+      "target": "css=.auth-form:nth-child(2) > #email",
+      "targets": [
+        ["css=.auth-form:nth-child(2) > #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "INSERT VALUE"
+    }, {
+      "id": "228e701e-06dd-4fe4-9100-a718f104b414",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/div/form/input[2]",
+      "targets": [
+        ["css=.ng-pristine > #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input[2]", "xpath:position"]
+      ],
+      "value": "INSERT VALUE"
+    }, {
+      "id": "cd360185-b99b-42b9-a5b5-dcdebf9ca664",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(6)",
+      "targets": [
+        ["css=.btn:nth-child(6)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6746353-e47e-4c4b-9954-ac6e5c3e15d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PowerSelect__TriggerStatus:nth-child(2)",
+      "targets": [
+        ["css=.PowerSelect__TriggerStatus:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='headerNav']/ul/li[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33397884-d737-48c1-81ff-05e494eeee72",
+      "comment": "",
+      "command": "type",
+      "target": "css=.PowerSelect__SearchInput",
+      "targets": [
+        ["css=.PowerSelect__SearchInput", "css:finder"],
+        ["xpath=//input[@value='Depansum solutions pvt. ltd (dLocal)']", "xpath:attributes"],
+        ["xpath=//div[10]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Depansum solutions pvt. ltd (dLocal)"
+    }, {
+      "id": "a7832f7d-5785-4237-90b2-e5e2fe6c7023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SwitchMerchantDropdown__option",
+      "targets": [
+        ["css=.SwitchMerchantDropdown__option", "css:finder"],
+        ["xpath=//div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e87a88-28b3-4868-8544-857e2d39bdf0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active > a > .card",
+      "targets": [
+        ["css=.active > a > .card", "css:finder"],
+        ["xpath=//ul[@id='analytics-keymetrics-section']/li/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb20bb2a-8491-4bec-bc96-adc944c5e7f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Collapsible:nth-child(1) > .Collapsible--title",
+      "targets": [
+        ["css=.Collapsible:nth-child(1) > .Collapsible--title", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"],
+        ["xpath=//header[contains(.,'Partner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5211001f-4a8a-4a0b-a93e-e89510e77063",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Affiliate Accounts",
+      "targets": [
+        ["linkText=Affiliate Accounts", "linkText"],
+        ["css=.Collapsible--body > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Affiliate Accounts')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/partners/submerchants')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Affiliate Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e0f96c-5794-4ee2-9ecd-a99dd5d25067",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Affiliate Accounts",
+      "targets": [
+        ["linkText=Affiliate Accounts", "linkText"],
+        ["css=.Collapsible--body > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Affiliate Accounts')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/partners/submerchants')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Affiliate Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54fd8fff-53a6-4c02-a4e5-7a7ea3bb0019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-l",
+      "targets": [
+        ["css=.m-l", "css:finder"],
+        ["xpath=//div[12]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca255613-45b7-4cb8-bdee-e8ead1c261fa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Depansum Solutions Pvt. Ltd (SeaGamerGM)"
+    }, {
+      "id": "1d4108ca-2bd0-4779-a5ce-c9f89a91c49e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4f2ec25-2839-471b-9b95-cc68553b4626",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mrjeff_gm_in_razorpay@dlocalmail.com"
+    }, {
+      "id": "36f0261a-99ed-47f2-9e69-6837e522c65c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-block",
+      "targets": [
+        ["css=.btn-block", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Merchant')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a6132a-d92a-4797-95d3-aeadf0637022",
+      "comment": "",
+      "command": "click",
+      "target": "css=.null:nth-child(1) .btn",
+      "targets": [
+        ["css=.null:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div[2]/div/div/table/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Switch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d9df0f-8013-41de-901e-8f4b3706c8b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Activate your account",
+      "targets": [
+        ["linkText=Activate your account", "linkText"],
+        ["css=.welcome-modal-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Activate your account')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5dbc5fd-b848-45bf-ba2d-beffcc19d812",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_name",
+      "targets": [
+        ["name=contact_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nitesh Singhal"
+    }, {
+      "id": "862c1c3c-12d6-4674-af4d-119e43e358a9",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_mobile",
+      "targets": [
+        ["name=contact_mobile", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "9619635750"
+    }, {
+      "id": "e26899cd-a759-4b0c-b165-20ee373c97b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_email",
+      "targets": [
+        ["name=contact_email", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nitesh@dlocal.com"
+    }, {
+      "id": "f7d49eb4-1671-42f1-a1dd-ba5d8e8a7334",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3) > li:nth-child(2)",
+      "targets": [
+        ["css=ul:nth-child(3) > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/aside/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//aside/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Business Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0898ed1e-0c1d-4580-a042-81eedd5a60bc",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_type",
+      "targets": [],
+      "value": "label=Private Limited"
+    }, {
+      "id": "d8703e2d-efc8-43d2-b229-e481e8245576",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_category",
+      "targets": [
+        ["name=business_category", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//select[@name='business_category']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea61e12-ae97-48de-b14f-4e6ba1588a10",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_category",
+      "targets": [],
+      "value": "label=Ecommerce"
+    }, {
+      "id": "b90f010a-bdb6-4af0-a90a-8f8f3f81854d",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_subcategory",
+      "targets": [
+        ["name=business_subcategory", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//select[@name='business_subcategory']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c48ca2-1ac9-4d1f-817e-37ed20d4312c",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_subcategory",
+      "targets": [],
+      "value": "label=Horizontal Commerce/Marketplace"
+    }, {
+      "id": "3768dbf8-504a-4429-a4ad-6e446be63ad9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Privacy Policy",
+      "targets": [
+        ["linkText=Privacy Policy", "linkText"],
+        ["css=.bullet-list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy Policy')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div[3]/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.google.com/document/d/1yqqWTE_jfC8F_u9UV9nLq3AUZR2wwpQGJigRJV3YQvg/pub')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ad00c4a-0f81-414f-af9d-e47a150f4ac2",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_dba",
+      "targets": [
+        ["name=business_dba", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_dba']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac13255-b390-4132-91af-ce3524036768",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_dba",
+      "targets": [
+        ["name=business_dba", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_dba']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "MrJeff"
+    }, {
+      "id": "22e97b84-e2cc-418b-b8bc-1ac80545e8e1",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_website",
+      "targets": [
+        ["name=business_website", "name"],
+        ["css=.Input-content:nth-child(1) .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_website']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c28a5c-f3e6-49b3-ba46-486152e34e33",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_website",
+      "targets": [
+        ["name=business_website", "name"],
+        ["css=.Input-content:nth-child(1) .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_website']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "https://wearejeff.com/"
+    }, {
+      "id": "b95f69f5-e1e2-4e3e-85a0-97d55dc86f01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/footer/button[2]/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6975746b-4aa4-4aeb-94e2-bab03d2bbb4b",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_name",
+      "targets": [
+        ["name=business_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Depansum Solutions Pvt. Ltd"
+    }, {
+      "id": "89cd52e1-e3d5-47f3-808e-89636c9dfec0",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67e6636b-107c-44d9-b4fb-705eeb2f80e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c35bb4-9814-42b6-bbfc-b61213c059f7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40d6bb3-1849-4fe5-80c3-858e35e6b92b",
+      "comment": "",
+      "command": "type",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "AAKPK9902F"
+    }, {
+      "id": "3a324406-22ba-4463-a163-455674325cd4",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_registered_address",
+      "targets": [
+        ["name=business_registered_address", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//textarea[@name='business_registered_address']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5d8147-eb9a-42ef-8782-de27ccff482c",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_registered_address",
+      "targets": [
+        ["name=business_registered_address", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//textarea[@name='business_registered_address']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/textarea", "xpath:position"]
+      ],
+      "value": "DEPANSUM SOLUTIONS PRIVATE LIMITED 1101, KLJ TOWER, NETAJI SUBHASHPLACE, PITAMPURA "
+    }, {
+      "id": "c34c7a20-9638-4047-8287-e9d5032b38a0",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_registered_pin",
+      "targets": [
+        ["name=business_registered_pin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_registered_pin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8010313-b5fe-4d64-a889-36690ad9de38",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_registered_pin",
+      "targets": [
+        ["name=business_registered_pin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_registered_pin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "110034"
+    }, {
+      "id": "1da010b0-54ff-4eae-aa76-25a84df9dcb7",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit-and-verify",
+      "targets": [
+        ["name=submit-and-verify", "name"],
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//button[@name='submit-and-verify']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3361b73e-8e88-4121-aa66-30f7395852a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Modal-close",
+      "targets": [
+        ["css=.Modal-close", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a99791cf-4ec7-4083-bcba-ffb73eb9e3a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24e9a897-0075-4a2a-b017-25632eaca10f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-t",
+      "targets": [
+        ["css=.m-t", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/div/div[3]/div[3]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'How do I accept payments?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e7ad2b-a15f-4b16-af96-cf036d5e4b0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Modal-close",
+      "targets": [
+        ["css=.Modal-close", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caeafe87-0db5-4672-809d-831d3d8a3911",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settlements",
+      "targets": [
+        ["linkText=Settlements", "linkText"],
+        ["css=.NavLink:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Settlements')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/settlements')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Settlements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5501497d-d6b5-4848-a08c-2dd0119e3ee5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f5ec083-0d0a-436f-9121-36422ff81868",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bce5526-d961-45cc-8344-3f6fd9493901",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7f62e54-141d-4045-a4aa-f403f17c7530",
+      "comment": "",
+      "command": "type",
+      "target": "name=company_pan",
+      "targets": [
+        ["name=company_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "AAGCD5171N"
+    }, {
+      "id": "ad397fb4-9da7-4223-aa87-b80f29d79c6f",
+      "comment": "",
+      "command": "click",
+      "target": "name=company_cin",
+      "targets": [
+        ["name=company_cin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_cin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3987f1a-c8ce-4fa7-a418-c64301140282",
+      "comment": "",
+      "command": "type",
+      "target": "name=company_cin",
+      "targets": [
+        ["name=company_cin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_cin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "U74999DL2018PTC328683"
+    }, {
+      "id": "3f875b24-0c33-4525-80d3-633421195b9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan_name",
+      "targets": [
+        ["name=promoter_pan_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[4]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c302210-2407-4528-a18b-18d9c36c4687",
+      "comment": "",
+      "command": "type",
+      "target": "name=promoter_pan_name",
+      "targets": [
+        ["name=promoter_pan_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[4]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "SURINDER KUMAR"
+    }, {
+      "id": "0d7e9396-adc1-403c-aa12-525e60073427",
+      "comment": "",
+      "command": "click",
+      "target": "name=gstin",
+      "targets": [
+        ["name=gstin", "name"],
+        ["css=.Input-content:nth-child(1) > .Input-elWrapper > .Input-el", "css:finder"],
+        ["xpath=//input[@name='gstin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[8]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d91a4b8-fd80-4473-aba5-a84458d76ca3",
+      "comment": "",
+      "command": "type",
+      "target": "name=gstin",
+      "targets": [
+        ["name=gstin", "name"],
+        ["css=.Input-content:nth-child(1) > .Input-elWrapper > .Input-el", "css:finder"],
+        ["xpath=//input[@name='gstin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[8]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "07AAGCD5171N1ZA"
+    }, {
+      "id": "58cb48ce-e132-4ff6-9fd2-e77862515a5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "735de275-f157-49ea-ba9a-340b7a4019df",
+      "comment": "",
+      "command": "type",
+      "target": "name=bank_branch_ifsc",
+      "targets": [
+        ["name=bank_branch_ifsc", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_branch_ifsc']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "KKBK0000208"
+    }, {
+      "id": "60e3c559-2b42-44e3-9e2e-74b7922fe589",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/div[2]/div/input",
+      "targets": [
+        ["name=bank_account_number", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_account_number']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7512151664"
+    }, {
+      "id": "1d38cf5c-c063-4df6-a9c6-fe132140c912",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div[2]/div/input",
+      "targets": [
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=(//input[@value='7512151664'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7512151664"
+    }, {
+      "id": "71205f36-94d4-487c-bd0b-7f26b46b69c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=bank_account_name",
+      "targets": [
+        ["name=bank_account_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_account_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "DEPANSUM SOLUTIONS PRIVATE LIMITED"
+    }, {
+      "id": "80525f4e-ed15-45a6-a6c3-d80172c588c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd078cc1-cd47-4f0d-9717-22cbc9c71b84",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-business_proof_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aff58f4-dfad-413f-b0a7-2b84f42a7242",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-business_proof_url",
+      "targets": [
+        ["id=fileInput-business_proof_url", "id"],
+        ["css=#fileInput-business_proof_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-business_proof_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-business_proof_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Business Registration Proof.PDF"
+    }, {
+      "id": "75d56050-d0bd-4864-b48c-d6386cc314b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-business_pan_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da0ef045-1fd2-4a0b-918d-959aa01eeba4",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-business_pan_url",
+      "targets": [
+        ["id=fileInput-business_pan_url", "id"],
+        ["css=#fileInput-business_pan_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-business_pan_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-business_pan_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Company PAN.pdf"
+    }, {
+      "id": "ddc74c57-4389-4d40-af4d-a826a1732e5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-address_proof_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e435c4fa-782a-4651-9c64-06594e0c80ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-address_proof_url",
+      "targets": [
+        ["id=fileInput-address_proof_url", "id"],
+        ["css=#fileInput-address_proof_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-address_proof_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-address_proof_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Company's Bank Account Statement with Address.jpg"
+    }, {
+      "id": "9959d65b-fcad-435a-a4ce-099d6c2ad633",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-promoter_address_url > .Dropzone-cavity",
+      "targets": [
+        ["css=#Dropzone-promoter_address_url > .Dropzone-cavity", "css:finder"],
+        ["xpath=//div[@id='Dropzone-promoter_address_url']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Drop file here or Click to Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f59a027-8131-4645-a1cc-8ae78307e216",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-promoter_address_url",
+      "targets": [
+        ["id=fileInput-promoter_address_url", "id"],
+        ["css=#fileInput-promoter_address_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-promoter_address_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-promoter_address_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Authorized Signatory's Address Proof.pdf"
+    }, {
+      "id": "4461ae43-9cf4-4d63-8fc1-c3f3520ddf24",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button",
+      "targets": [
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3965bdb-0c51-47d7-a065-0e383054023e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Input-checkbox",
+      "targets": [
+        ["css=.Input-checkbox", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main[2]/div/div/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cecd4bb5-cd98-4918-91e6-7c1dfdac30a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button--primary",
+      "targets": [
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//main[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8dcfdc4-d29f-4de3-8e87-5a24041bfdaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-body > .btn",
+      "targets": [
+        ["css=.modal-body > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "237e9bb2-5154-4f07-a578-dee1ea628d99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["linkText=Settings", "linkText"],
+        ["css=.NavLink:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[15]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/config')]", "xpath:href"],
+        ["xpath=//a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69fb5032-c2fe-44a5-bccc-4007717b5fc8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.NavLink:nth-child(16)", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[14]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/profile')]", "xpath:href"],
+        ["xpath=//a[14]", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6abdcbc-4bbf-4e11-baa4-6a0ecf547c8c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.NavLink:nth-child(16)", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[14]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/profile')]", "xpath:href"],
+        ["xpath=//a[14]", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35baa0f4-95c8-475f-94ee-23f367a60408",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Customers",
+      "targets": [
+        ["linkText=Customers", "linkText"],
+        ["css=.NavLink:nth-child(12)", "css:finder"],
+        ["xpath=//a[contains(text(),'Customers')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[11]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/customers')]", "xpath:href"],
+        ["xpath=//a[11]", "xpath:position"],
+        ["xpath=//a[contains(.,'Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e9ba6fa-4e26-495c-b591-4899eea7589c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webhooks",
+      "targets": [
+        ["linkText=Webhooks", "linkText"],
+        ["css=#settings-header > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Webhooks')]", "xpath:link"],
+        ["xpath=//header[@id='settings-header']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/webhooks')]", "xpath:href"],
+        ["xpath=//header/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Webhooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "214358f7-ae42-4559-b44b-0691892a00ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div[2]/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//td/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Setup your Live Webhook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c1092d4-383d-4ab9-94d5-5df6d055225f",
+      "comment": "",
+      "command": "type",
+      "target": "name=url",
+      "targets": [
+        ["name=url", "name"],
+        ["css=.form-group:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='url']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://api.dlocal.com/ipn/razorpay"
+    }, {
+      "id": "e968fd04-26b8-4b06-a7ef-a21571d185df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(1) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[3]/div/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'payment.captured')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a580d68c-3ae9-4f8c-9001-c60849dca5e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(2) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[3]/div/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'payment.captured')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b542e3-00dc-45ef-a46b-db619cc31a2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(3) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[3]/div/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'payment.captured')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae76da5-779c-4eec-b060-726de8dc6323",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6755e0d3-cb5b-46f1-bda9-7c37f95b40ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=API Keys",
+      "targets": [
+        ["linkText=API Keys", "linkText"],
+        ["css=#settings-header > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'API Keys')]", "xpath:link"],
+        ["xpath=//header[@id='settings-header']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/keys')]", "xpath:href"],
+        ["xpath=//header/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'API Keys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b43860-2c16-4a45-9609-d56497b47382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div/div/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//td/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate Live Key')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "126dccfe-0277-4416-87b8-ea158ec2df33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download Key Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b5dc23-b44f-4e22-8341-3d47c9d2d669",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download Key Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbfeb9c0-5216-419b-9f7f-620d7d1f0b49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download Key Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "471e458f-c6f0-4f2c-b588-cd1ab2615304",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "71214c21-65a4-42fa-9d21-c93852b6db01",
+    "name": "RazorPay - PM",
+    "commands": [{
+      "id": "0561512e-2035-4082-a286-8661679a2531",
+      "comment": "",
+      "command": "open",
+      "target": "https://dashboard.razorpay.com/#/access/signin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1464a6b8-c7b7-4718-9603-0a97d280b96c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5f7f81a-9953-49ff-b9d1-533a250dc36c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.auth-form:nth-child(2) > #email",
+      "targets": [
+        ["css=.auth-form:nth-child(2) > #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "INSERT VALUE"
+    }, {
+      "id": "30cebfcb-c0ae-4208-b83d-f57f26f53567",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/div/form/input[2]",
+      "targets": [
+        ["css=.ng-pristine > #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input[2]", "xpath:position"]
+      ],
+      "value": "INSERT VALUE"
+    }, {
+      "id": "efd5ed92-fe66-43e7-ac17-009d9e79d1cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(6)",
+      "targets": [
+        ["css=.btn:nth-child(6)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='auth-container']/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03246a9c-3b2f-41c1-9bcc-a04a4af94933",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PowerSelect__TriggerStatus:nth-child(2)",
+      "targets": [
+        ["css=.PowerSelect__TriggerStatus:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='headerNav']/ul/li[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4861b28b-1d63-42fa-a510-74f8d1d87eea",
+      "comment": "",
+      "command": "type",
+      "target": "css=.PowerSelect__SearchInput",
+      "targets": [
+        ["css=.PowerSelect__SearchInput", "css:finder"],
+        ["xpath=//input[@value='Depansum solutions pvt. ltd (dLocal)']", "xpath:attributes"],
+        ["xpath=//div[10]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Depansum solutions pvt. ltd (dLocal)"
+    }, {
+      "id": "5be6cf62-3137-4f1d-8561-33894a99b650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SwitchMerchantDropdown__option",
+      "targets": [
+        ["css=.SwitchMerchantDropdown__option", "css:finder"],
+        ["xpath=//div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e36044a-32be-4e7b-b292-fd068bacbe59",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active > a > .card",
+      "targets": [
+        ["css=.active > a > .card", "css:finder"],
+        ["xpath=//ul[@id='analytics-keymetrics-section']/li/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c5b833-51a2-43c2-8be3-0cb4db6df407",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Collapsible:nth-child(1) > .Collapsible--title",
+      "targets": [
+        ["css=.Collapsible:nth-child(1) > .Collapsible--title", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"],
+        ["xpath=//header[contains(.,'Partner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e023580a-9e4a-4ee9-ac69-4438adc06988",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Affiliate Accounts",
+      "targets": [
+        ["linkText=Affiliate Accounts", "linkText"],
+        ["css=.Collapsible--body > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Affiliate Accounts')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/partners/submerchants')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Affiliate Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afcb5681-00c7-476a-915a-d1c7879122ad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Affiliate Accounts",
+      "targets": [
+        ["linkText=Affiliate Accounts", "linkText"],
+        ["css=.Collapsible--body > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Affiliate Accounts')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/partners/submerchants')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Affiliate Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "526f8bec-278b-4394-aeda-23db2f0b590b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-l",
+      "targets": [
+        ["css=.m-l", "css:finder"],
+        ["xpath=//div[12]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62bb1ca6-b83b-498b-b7cf-b2fa87677574",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Depansum Solutions Pvt. Ltd (MrJeffM)"
+    }, {
+      "id": "b920d39d-73b7-4c8c-97b8-84bfa8221229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b5d914-7d99-48d7-b13f-ee99d68a3936",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) > .InputField > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .InputField > .form-control", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mrjeff_pm_in_razorpay@dlocalmail.com"
+    }, {
+      "id": "0ee72061-a2b3-4e72-9de5-b844fc0a2fc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-block",
+      "targets": [
+        ["css=.btn-block", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Merchant')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c564f64f-c80a-4e97-8d40-c9a32c72b353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.null:nth-child(1) .btn",
+      "targets": [
+        ["css=.null:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div[2]/div/div/table/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Switch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ae5f6a0-d678-477d-a847-e6c45ceb8e76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Activate your account",
+      "targets": [
+        ["linkText=Activate your account", "linkText"],
+        ["css=.welcome-modal-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Activate your account')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40a6046f-b1c5-4339-872b-dfd7d20527ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_name",
+      "targets": [
+        ["name=contact_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nitesh Singhal"
+    }, {
+      "id": "0fd1c705-77c3-495b-b065-1f239729573f",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_mobile",
+      "targets": [
+        ["name=contact_mobile", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "9619635750"
+    }, {
+      "id": "50866fec-e8eb-4861-9b7a-38a028e0f633",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact_email",
+      "targets": [
+        ["name=contact_email", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='contact_email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nitesh@dlocal.com"
+    }, {
+      "id": "70a54108-2f44-4975-9bec-a60efa2090f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3) > li:nth-child(2)",
+      "targets": [
+        ["css=ul:nth-child(3) > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/aside/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//aside/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Business Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d24963b-8530-4dc8-a8cb-a9f71d2807a7",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_type",
+      "targets": [],
+      "value": "label=Private Limited"
+    }, {
+      "id": "c14bd432-08b7-4309-a604-a62970b7bebb",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_category",
+      "targets": [
+        ["name=business_category", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//select[@name='business_category']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd333a6-0d66-4bcc-aff8-17560010d809",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_category",
+      "targets": [],
+      "value": "label=Ecommerce"
+    }, {
+      "id": "e10006c1-ab96-4dcc-8859-e48629595512",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_subcategory",
+      "targets": [
+        ["name=business_subcategory", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//select[@name='business_subcategory']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "160fc477-d325-48d0-8da3-770b98704e4a",
+      "comment": "",
+      "command": "select",
+      "target": "name=business_subcategory",
+      "targets": [],
+      "value": "label=Horizontal Commerce/Marketplace"
+    }, {
+      "id": "c6972daa-482c-4e7b-8035-66ed39bec586",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Privacy Policy",
+      "targets": [
+        ["linkText=Privacy Policy", "linkText"],
+        ["css=.bullet-list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy Policy')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div[3]/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.google.com/document/d/1yqqWTE_jfC8F_u9UV9nLq3AUZR2wwpQGJigRJV3YQvg/pub')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff376c91-f503-4b74-b741-4fa7b9c74326",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_dba",
+      "targets": [
+        ["name=business_dba", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_dba']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8bc52b5-cbba-4450-bac3-1ec463af5e17",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_dba",
+      "targets": [
+        ["name=business_dba", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_dba']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "MrJeff"
+    }, {
+      "id": "7818f91c-4f74-4f46-a1f6-98c3666c1dce",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_website",
+      "targets": [
+        ["name=business_website", "name"],
+        ["css=.Input-content:nth-child(1) .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_website']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc57b2a-0827-45b4-8075-6109d438b6d0",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_website",
+      "targets": [
+        ["name=business_website", "name"],
+        ["css=.Input-content:nth-child(1) .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_website']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "https://wearejeff.com/"
+    }, {
+      "id": "585ec659-1514-4dca-834b-3de7a28eafcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/footer/button[2]/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa84a5a-f21c-4b3b-9524-d01a66509cc8",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_name",
+      "targets": [
+        ["name=business_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Depansum Solutions Pvt. Ltd"
+    }, {
+      "id": "206dd424-568f-40af-ae41-2284ccbb14ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfdff27b-5bdb-4178-bc1e-2550383ac8ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d265db-d231-4927-99f0-5c241c140808",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd645ee-01c8-4748-a158-c8af8a5465a7",
+      "comment": "",
+      "command": "type",
+      "target": "name=promoter_pan",
+      "targets": [
+        ["name=promoter_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "AAKPK9902F"
+    }, {
+      "id": "54563441-d796-49cc-9b4f-18bdf26a6b8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_registered_address",
+      "targets": [
+        ["name=business_registered_address", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//textarea[@name='business_registered_address']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bab5c07-d49a-46b3-92a1-1c3dbca28f73",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_registered_address",
+      "targets": [
+        ["name=business_registered_address", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//textarea[@name='business_registered_address']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/textarea", "xpath:position"]
+      ],
+      "value": "DEPANSUM SOLUTIONS PRIVATE LIMITED 1101, KLJ TOWER, NETAJI SUBHASHPLACE, PITAMPURA "
+    }, {
+      "id": "b7c6ca17-79f1-4252-bb83-a7d03a3f9709",
+      "comment": "",
+      "command": "click",
+      "target": "name=business_registered_pin",
+      "targets": [
+        ["name=business_registered_pin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_registered_pin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8556bdf6-2309-42cf-940b-10fe8352595b",
+      "comment": "",
+      "command": "type",
+      "target": "name=business_registered_pin",
+      "targets": [
+        ["name=business_registered_pin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='business_registered_pin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/main/form/div[3]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "110034"
+    }, {
+      "id": "96cec43f-a0aa-4683-ba7a-625ebfee8f8a",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit-and-verify",
+      "targets": [
+        ["name=submit-and-verify", "name"],
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//button[@name='submit-and-verify']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div[2]/div/div/div/div/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a2fa4d-b9db-4a22-a20e-e0e7f8586d5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Modal-close",
+      "targets": [
+        ["css=.Modal-close", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a917d4-365b-4609-9aa0-8343e7818e2e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b83ca47e-68e2-4052-b4f0-69bd36b9a2d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-t",
+      "targets": [
+        ["css=.m-t", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/div/div[3]/div[3]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'How do I accept payments?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a4dc52-25ac-44bc-9231-a7885d904c24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Modal-close",
+      "targets": [
+        ["css=.Modal-close", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a8480fb-e399-4861-bd40-a6edaa482432",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settlements",
+      "targets": [
+        ["linkText=Settlements", "linkText"],
+        ["css=.NavLink:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Settlements')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/settlements')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Settlements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c88f5aa-d3b0-47e1-9d05-2ec2bd9e1fcf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5223d2-5f93-441e-a498-ad7ffeddf929",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "878d2520-ff59-4c0c-8e64-073d4afba188",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Complete KYC Form",
+      "targets": [
+        ["linkText=Complete KYC Form", "linkText"],
+        ["css=.rzp-banner-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete KYC Form')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#/app/activation')])[2]", "xpath:href"],
+        ["xpath=//tabbed-container/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete KYC Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "449c7cf4-b693-49e2-8262-e14d44b6379c",
+      "comment": "",
+      "command": "type",
+      "target": "name=company_pan",
+      "targets": [
+        ["name=company_pan", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_pan']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "AAGCD5171N"
+    }, {
+      "id": "cdbf69be-91af-43c6-8d44-e309d125616c",
+      "comment": "",
+      "command": "click",
+      "target": "name=company_cin",
+      "targets": [
+        ["name=company_cin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_cin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "010bd6d1-8a75-4d92-b8b4-f4c03177ccd9",
+      "comment": "",
+      "command": "type",
+      "target": "name=company_cin",
+      "targets": [
+        ["name=company_cin", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='company_cin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "U74999DL2018PTC328683"
+    }, {
+      "id": "47b05901-c678-4345-ba80-ffc953642fca",
+      "comment": "",
+      "command": "click",
+      "target": "name=promoter_pan_name",
+      "targets": [
+        ["name=promoter_pan_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[4]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dccbef41-8879-4529-836b-5f7d629a9915",
+      "comment": "",
+      "command": "type",
+      "target": "name=promoter_pan_name",
+      "targets": [
+        ["name=promoter_pan_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='promoter_pan_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[4]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "SURINDER KUMAR"
+    }, {
+      "id": "2bca9748-919e-4c67-8ecf-b13cec6aa5d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=gstin",
+      "targets": [
+        ["name=gstin", "name"],
+        ["css=.Input-content:nth-child(1) > .Input-elWrapper > .Input-el", "css:finder"],
+        ["xpath=//input[@name='gstin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[8]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc20c82-b7f2-41fd-95fb-83e6b54c7baa",
+      "comment": "",
+      "command": "type",
+      "target": "name=gstin",
+      "targets": [
+        ["name=gstin", "name"],
+        ["css=.Input-content:nth-child(1) > .Input-elWrapper > .Input-el", "css:finder"],
+        ["xpath=//input[@name='gstin']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[8]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "07AAGCD5171N1ZA"
+    }, {
+      "id": "f3adc868-63c9-46d3-b7c3-8924a67aca03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa33a8c7-ffb3-4dcc-84aa-1f40bc77bd07",
+      "comment": "",
+      "command": "type",
+      "target": "name=bank_branch_ifsc",
+      "targets": [
+        ["name=bank_branch_ifsc", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_branch_ifsc']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "KKBK0000208"
+    }, {
+      "id": "6e08e007-aecc-4aaa-bfe4-4225376c5116",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/div[2]/div/input",
+      "targets": [
+        ["name=bank_account_number", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_account_number']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7512151664"
+    }, {
+      "id": "dd8ca1e1-caf9-4ad8-afff-0af3e1e2311b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div[2]/div/input",
+      "targets": [
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=(//input[@value='7512151664'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7512151664"
+    }, {
+      "id": "f12770da-4c3e-4705-b7c5-bb691d18d346",
+      "comment": "",
+      "command": "type",
+      "target": "name=bank_account_name",
+      "targets": [
+        ["name=bank_account_name", "name"],
+        ["css=.is-focused .Input-el", "css:finder"],
+        ["xpath=//input[@name='bank_account_name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "DEPANSUM SOLUTIONS PRIVATE LIMITED"
+    }, {
+      "id": "6c0b328a-ea7d-4e24-9842-ec0bee9c19ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.device--desktop:nth-child(1)",
+      "targets": [
+        ["css=.device--desktop:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save & Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b27f659-3f4e-49e3-89da-d98eed74c54c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-business_proof_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a14997e-78bd-445c-997e-db9137811085",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-business_proof_url",
+      "targets": [
+        ["id=fileInput-business_proof_url", "id"],
+        ["css=#fileInput-business_proof_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-business_proof_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-business_proof_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Business Registration Proof.PDF"
+    }, {
+      "id": "6ca89bbf-ef0a-4cdc-9b6d-06d088affc3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-business_pan_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d590a3-ed51-4950-aef6-592653123a2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-business_pan_url",
+      "targets": [
+        ["id=fileInput-business_pan_url", "id"],
+        ["css=#fileInput-business_pan_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-business_pan_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-business_pan_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Company PAN.pdf"
+    }, {
+      "id": "ef7dce91-daad-498d-8968-71c304be67f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-address_proof_url > .Dropzone-cavity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cea0f59-1ec4-4db6-904e-79c91cf5e582",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-address_proof_url",
+      "targets": [
+        ["id=fileInput-address_proof_url", "id"],
+        ["css=#fileInput-address_proof_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-address_proof_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-address_proof_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Company's Bank Account Statement with Address.jpg"
+    }, {
+      "id": "070f3536-397f-4958-b60d-5b9b1faba1af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Dropzone-promoter_address_url > .Dropzone-cavity",
+      "targets": [
+        ["css=#Dropzone-promoter_address_url > .Dropzone-cavity", "css:finder"],
+        ["xpath=//div[@id='Dropzone-promoter_address_url']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Drop file here or Click to Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d50808-1338-4471-9505-125ed515384b",
+      "comment": "",
+      "command": "type",
+      "target": "id=fileInput-promoter_address_url",
+      "targets": [
+        ["id=fileInput-promoter_address_url", "id"],
+        ["css=#fileInput-promoter_address_url", "css:finder"],
+        ["xpath=//input[@id='fileInput-promoter_address_url']", "xpath:attributes"],
+        ["xpath=//div[@id='Dropzone-promoter_address_url']/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "/Users/guidocorazza/Downloads/RazorPay/Authorized Signatory's Address Proof.pdf"
+    }, {
+      "id": "f33c0969-60e7-418f-b73b-65c17a36c74a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button",
+      "targets": [
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f21437b-828a-4880-8d7b-e2832efa9434",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Input-checkbox",
+      "targets": [
+        ["css=.Input-checkbox", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main[2]/div/div/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a871004d-fea1-4275-b10d-380e1c9df179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button--primary",
+      "targets": [
+        ["css=.Button--primary", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div/div/div/main[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//main[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c064a7-82ec-4af8-b3d8-fffe0fcba558",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-body > .btn",
+      "targets": [
+        ["css=.modal-body > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6945b681-82f2-4027-a5f2-9f539084d329",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["linkText=Settings", "linkText"],
+        ["css=.NavLink:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//div[@id='react-root']/div/div[2]/div/nav/div/a[15]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/config')]", "xpath:href"],
+        ["xpath=//a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40def35-2fac-4a86-b805-a230a5fe1e90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webhooks",
+      "targets": [
+        ["linkText=Webhooks", "linkText"],
+        ["css=#settings-header > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Webhooks')]", "xpath:link"],
+        ["xpath=//header[@id='settings-header']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/webhooks')]", "xpath:href"],
+        ["xpath=//header/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Webhooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "146ce554-7125-444b-9303-14e1a1777b26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div[2]/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//td/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Setup your Live Webhook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b7619c-c30b-4c12-8792-390577e645d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=url",
+      "targets": [
+        ["name=url", "name"],
+        ["css=.form-group:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='url']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://ipn.dlocal.com/v1/razorpay/webhook"
+    }, {
+      "id": "25a9c78c-6507-44e7-8913-c866a555c7db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(3) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[3]/div/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'payment.captured')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "610b9d52-a229-4290-b597-b073265b2cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6f8d3b-1394-4bfc-86a9-dce2ae0ae728",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=API Keys",
+      "targets": [
+        ["linkText=API Keys", "linkText"],
+        ["css=#settings-header > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'API Keys')]", "xpath:link"],
+        ["xpath=//header[@id='settings-header']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/app/keys')]", "xpath:href"],
+        ["xpath=//header/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'API Keys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45bb8392-5b47-49b8-b61a-2fc4d9e04673",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div[2]/main/tabbed-container/content/div/div/div/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//td/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate Live Key')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8dab94-d0a4-45e9-b036-e737a0461403",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download Key Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "099197f0-3391-4881-8449-c22e2d777c6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ec355955-b22a-479a-a363-ddc4f8d6f16a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://dashboard.razorpay.com/#/access/signin"],
+  "plugins": []
+}
