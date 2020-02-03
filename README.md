@@ -8,7 +8,7 @@
 
 
 ## Brazil
-- Itau need's no be done manually
+- Itau has to be done manually
 
 ## Morocco
 - Need some additional info for Morocco, payment method "MI"
