@@ -1,7 +1,11 @@
 # Routings
 
-- Then need to be logged in to geiger live
-- Please configure the speed as the slowest
+## Set up
+
+- Log in to geiger live
+- Run Selenium extension from your browser
+- Configure the speed as the slowest
+- Change the merchant id (Line 4 in every test)
 
 
 ## Brazil
@@ -17,6 +21,5 @@
 
 If your getting the following error: {"code":-32000,"message":"Not allowed"} on Chrome, when trying to upload the documents for the KYC, please follow the steps below:
 
-Window > More Tools > Extensions > Selenium IDE > Details
-
-Then turn on the 'Allow access to file URLs' option.
+1. Window > More Tools > Extensions > Selenium IDE > Details
+2. Then turn on the 'Allow access to file URLs' option.
